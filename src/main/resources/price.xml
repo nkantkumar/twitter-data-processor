@@ -1,0 +1,12 @@
+<items>
+<item name="Pizza" price="12.00">
+      <pizza>
+        <crust type="thin" size="14"/>
+        <topping>cheese</topping>
+        <topping>sausage</topping>
+      </pizza>
+ </item>
+  <item name="Breadsticks" price="4.00">
+      <breadsticks/>
+ </item>
+ </items>
