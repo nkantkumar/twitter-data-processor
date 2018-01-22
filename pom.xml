@@ -65,11 +65,12 @@
 			<artifactId>elasticsearch-spark_${scala.binary.version}</artifactId>
 			<version>${elasticsearch.version}</version>
 		</dependency>
+		
 		<dependency>
-			<groupId>com.stratio.datasource</groupId>
-			<artifactId>spark-mongodb_${scala.binary.version}</artifactId>
-			<version>${mongodb.version}</version>
-		</dependency>
+		    <groupId>org.mongodb.spark</groupId>
+		    <artifactId>mongo-spark-connector_${scala.binary.version}</artifactId>
+		    <version>${spark.version}</version>
+       </dependency>
 		<dependency>
 			<groupId>com.datastax.spark</groupId>
 			<artifactId>spark-cassandra-connector_${scala.binary.version}</artifactId>
